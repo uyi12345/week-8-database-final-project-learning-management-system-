@@ -1,2 +1,41 @@
-# week-8-database-final-project-learning-management-system-
-learning management system
+
+# Library Management System
+
+## Description
+
+This project is a relational database management system designed for managing a library. The system keeps track of books, members, and borrowing records.
+
+## Features
+
+- Add members, books, and borrowing records.
+- Ensure data integrity with constraints (PK, FK, NOT NULL, UNIQUE).
+- Simplify library management with a structured schema.
+
+## How to Setup
+
+1. Install MySQL and MySQL Workbench on your system.
+2. Clone the repository:
+
+   ```bash
+   git clone https://github.com/uyi12345/week-8-database-final-project-learning-management-system-.git
+   ```
+
+3. Open MySQL Workbench.
+4. Import the `library_management.sql` file:
+   - Open the `library_management.sql` file in MySQL Workbench.
+   - Select the database you want to use or create a new database.
+   - Execute the script to create the tables.
+
+5. The database will be created with the required tables.
+
+## ERD
+
+Below is the Entity-Relationship Diagram (ERD) for the database:
+
+![ERD](erd.png)  
+
+[View the ERD online](https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=PLP%20libary%20management%20project.drawio.png&dark=auto#R%3Cmxfile%3E%3Cdiagram%20name%3D%22Page-1%22%20id%3D%226TsSgUFe-pdvOzRT-cRp%22%3E7Z1dc9o4FIZ%2FTWa6F9uxMebjMkDa7TYfHdKdbi8VrIB3jcXKIgn99SvZEpgeh9osZrpHmslMbCGErVdHfvyiYy6C8fLlPSerxQ2LaHLR8aKXi2By0en4ftiR%2F1TJRpcEfrcomfM4Ksq8XcF9%2FI3qiqZ0HUc002VFkWAsEfFqv3DG0pTOxF4Z4Zw971d7ZEm0V7Aic7p3GKrgfkYSCqp9iSOxKEoHnf6u%2FDcazxfmk%2F3esHhlSUxl3XC2IBF7LhUFVxfBmDMmiq3ly5gmqvf2%2B%2BXdK69uD4zTVNR5g1biiSRrfW43Vzejq%2Bm9PjyxMecsj3SlNgV5UEWjTBAutDSdUBbIzhYkTimXBX6%2BnyRklcV59YmnShZxEl2TDVsL05DZGz3GLzSaFsqod0uRrmVjZvdRNn6vD0btkySep3J7Js9TfeKI00weyzXJhK4Be0J3zhPlgr6UinTPvKdsSQXfyCr61V99X79HD9RBsfe80zwMdI1FSe%2FAM2NNj7P5tumdFHJDq1GtTHBYgakaNaMF4%2FE31e%2BJ7uKyKvn%2Bc7xMSCqHI4m%2BKxqxPP68vPOTZMwSpqRLWUor1Ys4W30mfE6FLlixOBX5GYYj%2BScH2th7G16E8ljHct%2Ff7cs%2FVZ2LMUszweUoUW1QKdYzVYKNBFvpRhP6aNrnukfV9gMTgi31DpS2U1taraQcsbWk7Pb%2Bu5JdEGOyD%2BJ0%2FqrA8sxETJKpnLpIOk8KOfKZjOzkqNCsshf3eq7cpSaEirqjbEVm8qCui3fKrhsx2Z2PST47LeIooqmJw2J4%2BdVRFtSWotT3Qa9Z1%2BvGdj3UuDWSyHkjJUKGwTqNMqDn9jhrSRzCaZQuHyj%2FMLFd5Jd9SUoqbaP2NKLXau60qveA6p8%2BOr31%2FAqvlafW%2B9xy96HcPF6S%2FLQ%2F0o1TvtBl4EHlw4aX1h9IX6e502o%2FcDTWIo31%2FfPR2NAqGhvYSGPGJihpfEuW1HaFMaOYuVEvSe7kRktiPrStigD32KPyAhdqc5nfgblRgJjKfGeStYllvt8%2FH5f5dtlkvpU%2BmQ%2BNsqsliRPrNUbNZtAnc3ojhjPok%2F2Rxv%2Bs1YHRItg9EkWcZpkbBqjpzJlmrdJZLzgjndllm%2FlW%2BmYd6Jt9WihVbNcYM511bHHOmuuNkc621xkQ4166xmuYHSE%2BSiZzy8raXVbmDc%2FHZJYtLLNzZVnF0rJLzDfPbmlZ8ZG2eGZuaVn%2BidAz20a5Ld9puqVm5qwcorW68v%2BMS%2F8rVptFcpwgDWArTbMAmmYT2fbvMkRoZL3QmBktsMU5c4vOcrmhczbJ5%2FLv2Mz7y4U%2BekgLAjAYRnd3H13abN7z2ph6PWvW1Dh91mz3sAIOnveSe%2Brfch3Im60S8xTwHEDrC7O%2FaYauZfgMja4RY3%2BjTZytL%2FIBdA4bRtyPLp81mjux6hW5lFhTZxsr3hlWENP%2FHZ4HUHALkmebR7tJbdmLz9OKX6e5E6s%2FdFTWJpVV5c%2B2RWVd6HehprJhbTEQUVkXWlufY5EgNa4baIwZyrrQ4HJ640WyLrSwdIyXv3F%2BkDdjbhRghrOus8xahbPKLNrW6Mwuz6xrpWfWhZ7Z5VrICLVeZNR4Bj0zpzdiPIOOmQlyO%2FjsiLDHyWfOPGuXz6ryaNvis9Au96xrpXsWQvfsw%2F3o1nqJMdOZuS7gpzNnnim5oXm2fchJEeuo02mPCHqUbBY676zd5WZV%2BbStsRn0zlQXoAzg0ErjLKx4Yv%2F6IYmzBY2%2BUoJ0sm6gNWpCs8U%2Fa643SkKD%2FlkR4oV7tlJxPyMiZqkbBagRzdlnLWcEnDEloAftM7yIZqV31oPe2ZitYppdPpE4yWWzXW3MkNazxUZrrjdGSOtBG%2B1W22YFppFd1HuzfB5wwwEzrRlw2MurnU7vvny4fT%2B9Gt9NJy7FVr1qkmo1hHV9ODf0zI8OnzzJthce1sAhdVncXv0bsdeTbCvFPAlRQ0sM8xfSZuhaBtXQ%2BpLHxniENc22gcwHaHpw2qtpneZOrHtF1iXSNNsjFPfxPaPGXCXsSrM9Qvsu5KWg0%2FAS%2B4NZvk5zJ%2F6BYs9xWZtcVpFm2xqX9aEPhpnLzNC1i8v60O26yZ8ihpXLGsiMmcv60PZ6h5TLjlAcIZf1oa31jnGqelxzmcfpI5XdNsuneK%2BYBrI3Zjr4xY0O1OTmHLVWya0qB7c9dLPLUutbaan1oaWG%2Bbl1DURGDW7QUEMLbs5QU70ADbXD4KYmgexNMRVghTZnt%2BWtDZzd1i60VSTmtgZtA%2Bi34f2ljoGVbpvBhT1k45w902jipMYNbgPouDm98WLbAPpte7%2FVUTw1xXsmWb5TTAJuQKCmNWextbtorSJVtz1agxYbYlqz0mAbQINtsqaIQc05bHk3QIfN6Y0Y1KC%2FVgVqseK0aO1CHzWiDZ2h1nJewRkTC4Y2GWpDKw21ITTUplSseYrZUGsgNWZOG9piqB2hN0JOGzYx1LieBOTmm3Sd5Pm7SL8LPWJ04EQ3%2BOy0wlaF%2BdqzNX%2Bi6m2%2BYbdLVVEWXE2XJI3ucnXLUOfnABSMaBrtqn6jnH1mNyTdFK98X%2FclFn8q7d%2BGeu%2Br%2FkipHd8UL%2FmB2f%2F6KmZpjMnYms%2F0GejoEwYMSzBGozk9OAo4TYiIn%2Bhe469KLE%2BXbEoVNH7uWv7E8uefbJ8R4O%2F%2F9G6g88p3whYtHi0z9N14nkj4U8s86B8ls3kWzk%2Boc394Up3lLmdMlKtzslrcsIiqGv8C%3C%2Fdiagram%3E%3Cdiagram%20id%3D%22vWoniHXrP_UH58cOl1so%22%20name%3D%22Page-2%22%3EddHBDoIwDADQr9kdtgh6RpSLJw6eF1bZkkHJmAH9eiEFcVEvS%2Ffadc3GRNaMZyc7fUEFlvFIjUwcGeciTaZ1hgdBsksJamcUUbRBaZ5AGK96Nwr6xYg8ovWmC7HCtoXKByadwyEsu6FVAXSyhmCMGcpKWvgquxrlNemep5sXYGq93hwnB8o0ci1eGvdaKhw%2BSORMZA7RU9SMGdj57cJ3Of3Jvgdz0PofB6Zg6z1tgg8S%2BQs%3D%3C%2Fdiagram%3E%3C%2Fmxfile%3E)
+
+## Author
+
+Created by `uyi12345`.
